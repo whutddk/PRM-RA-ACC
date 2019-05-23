@@ -3,7 +3,7 @@
 // Engineer: Ruige_Lee
 // Create Date: 2019-05-22 15:54:36
 // Last Modified by:   Ruige_Lee
-// Last Modified time: 2019-05-23 21:08:54
+// Last Modified time: 2019-05-23 21:11:18
 // Email: 295054118@whut.edu.cn
 // page: https://whutddk.github.io/
 // Design Name:   
@@ -56,7 +56,7 @@ module pose2grid #(
 	//一个机械臂大约由3748个栅格组成，每个栅格中心默认不会对齐，激活周围8个栅格，或逻辑
 	//本模块通过打拍，分三部分同步转换
 	//需要查找三角函数表
-	//只需要验证边缘，是否可以脚本一次性生成全部，一个姿态争取500拍
+	//只需要验证边缘，是否可以脚本一次性生成全部，一个姿态争取500拍,或许可以根据长宽高比例，使用多个AABB模型转栅格
 
 	
 
